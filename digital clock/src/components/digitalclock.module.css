@@ -1,0 +1,25 @@
+body {
+  background-color: burlywood;
+  background-image: url(../assets/coffee.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+  align-items: center;
+}
+
+.clockContainer {
+  backdrop-filter: blur(3px);
+}
+
+.clock {
+  color: white;
+  font-size: 6rem;
+  font-weight: bold;
+  text-align: center;
+  text-shadow: 3px 5px 5px #5d5d5d;
+}
