@@ -1,5 +1,4 @@
 body {
-  background-color: burlywood;
   background-image: url(../assets/coffee.jpg);
   background-position: center;
   background-repeat: no-repeat;
@@ -14,6 +13,7 @@ body {
 
 .clockContainer {
   backdrop-filter: blur(3px);
+  padding: 10px 0;
 }
 
 .clock {
@@ -23,3 +23,4 @@ body {
   text-align: center;
   text-shadow: 3px 5px 5px #5d5d5d;
 }
+
